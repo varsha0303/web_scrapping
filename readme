@@ -1,0 +1,18 @@
+Requirements - 
+	- Python3
+	- selenium 3.141.0
+	- geckodriver according to firefox version
+	- sqlite3
+	-virtual environment setup
+	  virtualenv -p python3 myenv
+
+How to run a script -
+	python3 scrape.py
+
+Working of script -
+Wrote a script 'scrape.py' using python and selenium.
+The script get the data from link - 'http://bit.ly/top-mba-18'.Get the required data of universities from the web page go to the next page of univerirties and repeat.
+
+program highlights part is partially done.
+Able to fetch required data from program highlight.
+Unable to switch between windows.
